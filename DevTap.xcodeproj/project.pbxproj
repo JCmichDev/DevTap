@@ -26,6 +26,7 @@
 		5D6870D1149BC696003704F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6870A4149BC696003704F7 /* Foundation.framework */; };
 		5D6870D9149BC696003704F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D6870D7149BC696003704F7 /* InfoPlist.strings */; };
 		5D6870DC149BC696003704F7 /* DevTapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6870DB149BC696003704F7 /* DevTapTests.m */; };
+		5D6870EC149BCE1C003704F7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6870EB149BCE1C003704F7 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,28 +44,30 @@
 		5D6870A2149BC696003704F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D6870A4149BC696003704F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D6870A6149BC696003704F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5D6870AA149BC696003704F7 /* DevTap-Info.plist */ = {isa = PBXFileReference; path = "DevTap-Info.plist"; sourceTree = "<group>"; };
+		5D6870AA149BC696003704F7 /* DevTap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DevTap-Info.plist"; sourceTree = "<group>"; };
 		5D6870AC149BC696003704F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D6870AE149BC696003704F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5D6870B0149BC696003704F7 /* DevTap-Prefix.pch */ = {isa = PBXFileReference; path = "DevTap-Prefix.pch"; sourceTree = "<group>"; };
-		5D6870B1149BC696003704F7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D6870B0149BC696003704F7 /* DevTap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DevTap-Prefix.pch"; sourceTree = "<group>"; };
+		5D6870B1149BC696003704F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D6870B2149BC696003704F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5D6870B5149BC696003704F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		5D6870B8149BC696003704F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		5D6870BA149BC696003704F7 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		5D6870BA149BC696003704F7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		5D6870BB149BC696003704F7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		5D6870BD149BC696003704F7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		5D6870BF149BC696003704F7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		5D6870C1149BC696003704F7 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		5D6870C1149BC696003704F7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		5D6870C2149BC696003704F7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5D6870C4149BC696003704F7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		5D6870C6149BC696003704F7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		5D6870CD149BC696003704F7 /* DevTapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevTapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6870CE149BC696003704F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5D6870D6149BC696003704F7 /* DevTapTests-Info.plist */ = {isa = PBXFileReference; path = "DevTapTests-Info.plist"; sourceTree = "<group>"; };
+		5D6870D6149BC696003704F7 /* DevTapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DevTapTests-Info.plist"; sourceTree = "<group>"; };
 		5D6870D8149BC696003704F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5D6870DA149BC696003704F7 /* DevTapTests.h */ = {isa = PBXFileReference; path = DevTapTests.h; sourceTree = "<group>"; };
+		5D6870DA149BC696003704F7 /* DevTapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevTapTests.h; sourceTree = "<group>"; };
 		5D6870DB149BC696003704F7 /* DevTapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevTapTests.m; sourceTree = "<group>"; };
+		5D6870EA149BCE1C003704F7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5D6870EB149BCE1C003704F7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				5D6870BD149BC696003704F7 /* first.png */,
 				5D6870BF149BC696003704F7 /* first@2x.png */,
 				5D6870C1149BC696003704F7 /* SecondViewController.h */,
+				5D6870EA149BCE1C003704F7 /* ThirdViewController.h */,
+				5D6870EB149BCE1C003704F7 /* ThirdViewController.m */,
 				5D6870C2149BC696003704F7 /* SecondViewController.m */,
 				5D6870C4149BC696003704F7 /* second.png */,
 				5D6870C6149BC696003704F7 /* second@2x.png */,
@@ -286,6 +291,7 @@
 				5D6870B3149BC696003704F7 /* AppDelegate.m in Sources */,
 				5D6870BC149BC696003704F7 /* FirstViewController.m in Sources */,
 				5D6870C3149BC696003704F7 /* SecondViewController.m in Sources */,
+				5D6870EC149BCE1C003704F7 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +471,7 @@
 				5D6870E1149BC696003704F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D6870E2149BC696003704F7 /* Build configuration list for PBXNativeTarget "DevTapTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				5D6870E4149BC696003704F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

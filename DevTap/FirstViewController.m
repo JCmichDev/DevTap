@@ -9,6 +9,9 @@
 #import "FirstViewController.h"
 
 @implementation FirstViewController
+@synthesize searchBox;
+@synthesize resourceType;
+@synthesize items;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,10 +25,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    items = [NSMutableArray arrayWithObjects:@"All",@"Web Site",@"Book",@"Video",nil]; 
 }
 
 - (void)viewDidUnload
 {
+    [self setSearchBox:nil];
+    [self setResourceType:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

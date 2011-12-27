@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface FirstViewController : UIViewController
+
+@property (strong, nonatomic) NSMutableArray *items;
+
+@property (strong, nonatomic) IBOutlet UITextField *searchBox;
+@property (strong, nonatomic) IBOutlet UIPickerView *resourceType;
+
+
 
 @end
